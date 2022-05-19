@@ -64,20 +64,20 @@ a {
 	background-color: #f5f4f0;
 }
 
-.light_background::before {
+.light-background::before {
 	z-index: -1;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	background-image: url("../images/background.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	content: "";
-	opacity: 10%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    opacity: 10%;
 }
 
 .max-width {
@@ -137,7 +137,6 @@ a {
 }
 
 .what-is-div p {
-	height: 26px;
 	text-align: center;
 	margin-top: 27px;
 	margin-bottom: 30px;
@@ -151,7 +150,7 @@ a {
 	filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.navigation{
+.navigat{
 	background-color: var(--basic_dark);
 }
 
@@ -227,6 +226,7 @@ a {
 }
 
 .div-flex-img-left {
+	filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
 	margin-right: 30px;
 }
 
@@ -330,6 +330,10 @@ a {
 	margin-top: 30px;
 	color: var(--white);
 }
+
+.dark-img {
+	filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+} 
 
 .dark-div-info-h3 h3 {
 	margin-bottom: 20px;
