@@ -56,7 +56,7 @@ a {
 	color: var(--white);
 }
 
-.light-background{
+.light-background {
 	height: 100%;
 	z-index: 1;
 	overflow: hidden;
@@ -137,6 +137,7 @@ a {
 }
 
 .what-is-div p {
+	height: 26px;
 	text-align: center;
 	margin-top: 27px;
 	margin-bottom: 30px;
