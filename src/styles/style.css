@@ -132,6 +132,10 @@ a {
 	margin: 100px auto -100px;
 }
 
+.what-is-div p {
+  height: 26px;
+}
+
 .what-is-header {
 	text-align: center;
 }
@@ -390,6 +394,10 @@ a {
 	margin-top: 38px;
 }
 
+.footer-input-email {
+  font-size: 18px;
+}
+
 input[type="text"] {
 	border: 0;
 	width: 400px;
@@ -428,6 +436,7 @@ button {
 }
 
 .footer-info {
+  margin-bottom: 111px;
   margin-top: 60px;
 	text-align: center;
 }
