@@ -21,7 +21,7 @@
 h1,
 h2,
 h3 {
-	color: var(--major);
+  color: var(--major);
 	font-family: Neucha, cursive;
 	line-height: 1.2em;
 	font-weight: normal;
@@ -45,14 +45,14 @@ p,
 a {
 	font-size: 16px;
 	line-height: 1.6em;
-	font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-.black- {
+.black {
 	color: var(--dark);
 }
 
-.white- {
+.white {
 	color: var(--white);
 }
 
@@ -66,18 +66,18 @@ a {
 
 .light-background::before {
 	z-index: -1;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-image: url("../images/background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    content: "";
-    opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  opacity: 0.1;
 }
 
 .max-width {
@@ -124,7 +124,7 @@ a {
 }
 
 .what-is {
-	background-color: var(--white);
+  background-color: var(--white);
 }
 
 .what-is-div {
@@ -147,7 +147,7 @@ a {
 }
 
 .video {
-  border: 0px;
+  border: 0;
 	filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
 }
 
@@ -206,6 +206,10 @@ a {
 
 .navigation-card p {
 	color: var(--dark);
+}
+
+.dark-div-footer {
+	display: flex;
 }
 
 .div-footer p {
@@ -333,7 +337,7 @@ a {
 
 .dark-img {
 	filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
-} 
+}
 
 .dark-div-info-h3 h3 {
 	margin-bottom: 20px;
@@ -348,10 +352,6 @@ a {
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 120%;
-}
-
-.dark-div-footer {
-	display: flex;
 }
 
 .dark-div-footer p {
@@ -427,12 +427,12 @@ button {
 	height: 25px;
 }
 
-.footer_info {
-	padding-top: 60px;
+.footer-info {
+  margin-top: 60px;
 	text-align: center;
 }
 
-.footer-info p, 
+.footer-info p,
 .footer-info a {
 	font-size: 14px;
 }
