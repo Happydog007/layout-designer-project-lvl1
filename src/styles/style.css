@@ -223,6 +223,14 @@ a {
   flex: 1;
 }
 
+.footer-info p {
+  margin-top: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+}
+
 .navigation-card p:not(:nth-child(4n)) {
   padding-top: 16px;
 }
@@ -366,12 +374,15 @@ a {
 }
 
 .footer {
+  padding-top: 100px;
+  padding-bottom: 111px;
   background-color: var(--white);
 }
 
 .footer-main {
   max-width: 1110px;
-  margin: 100px auto 111px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-div {
@@ -382,7 +393,8 @@ a {
   display: flex;
 }
 
-.footer-h3, .footer-input {
+.footer-h3,
+.footer-input {
   flex: 1;
 }
 
@@ -430,7 +442,7 @@ input[type="text"] {
 
 button::before {
   position: absolute;
-  background-image: url(../images/send.svg);
+  background-image: url("../images/send.svg");
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
@@ -442,7 +454,8 @@ button::before {
   content: "";
 }
 
-.footer-email, .footer-email a {
+.footer-email,
+.footer-email a {
   color: var(--white);
   font-style: normal;
   font-weight: 400;
@@ -454,12 +467,3 @@ button::before {
   margin-top: 60px;
   text-align: center;
 }
-
-.footer-info p {
-  margin-top: 16px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 160%;
-}
-
