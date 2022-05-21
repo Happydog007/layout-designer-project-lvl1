@@ -134,13 +134,6 @@ a {
 
 .what-is-div p {
   height: 26px;
-}
-
-.what-is-header {
-  text-align: center;
-}
-
-.what-is-div p {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -374,26 +367,33 @@ a {
 
 .footer {
   background-color: var(--white);
+}
+
+.footer-main {
+  max-width: 1110px;
   margin: 100px auto 111px;
 }
 
-.footer-h3 {
-  margin: 55px auto 55px 55px;
-}
-
 .footer-div {
-  max-width: 1110px;
+  padding-left: 55px;
+  padding-right: 55px;
   background-color: var(--basic-dark);
   color: var(--white);
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
-  justify-content: space-between;
 }
 
-.footer-div div {
+.footer-h3, .footer-input {
   flex: 1;
+}
+
+.footer-h3 h3 {
+  margin-top: 55px;
+  margin-bottom: 55px;
+  font-family: Neucha, cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.2;
 }
 
 .footer-input {
@@ -401,56 +401,65 @@ a {
 }
 
 .footer-input-email {
+  font-style: normal;
+  font-weight: 400;
   font-size: 18px;
-}
-
-input[type="text"] {
-  border: 0;
-  width: 400px;
-  padding: 15px;
-  height: 50px;
+  line-height: 160%;
 }
 
 .input-all {
   margin-top: 9px;
+  height: 50px;
   display: flex;
   justify-content: flex-start;
 }
 
-button img {
-  display: block;
-  margin: auto;
+input[type="text"] {
+  border: 0;
+  padding: 15px;
+  flex-grow: 1;
 }
 
-button {
-  border: 0;
+.input-all button {
   height: 50px;
   width: 70px;
+  border: 0;
   background-color: var(--major);
+  position: relative;
 }
 
-.footer-email,
-.footer-email a {
+button::before {
+  position: absolute;
+  background-image: url(../images/send.svg);
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 15px;
+  right: 15px;
+  bottom: 25px;
+  left: 25px;
+  content: "";
+}
+
+.footer-email, .footer-email a {
   color: var(--white);
+  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 160%;
 }
 
-.footer-email {
-  height: 25px;
-}
-
 .footer-info {
-  margin-bottom: 111px;
   margin-top: 60px;
   text-align: center;
 }
 
-.footer-info a {
-  color: var(--blue);
+.footer-info p {
+  margin-top: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
 }
 
-.footer-href {
-  margin-top: 16px;
-}
