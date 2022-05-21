@@ -374,6 +374,7 @@ a {
 
 .footer {
 	background-color: var(--white);
+  margin: 100px auto 111px auto;
 }
 
 .footer-h3 {
